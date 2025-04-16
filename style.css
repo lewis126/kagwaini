@@ -334,4 +334,11 @@ footer {
     .hero-buttons {
         flex-direction: column;
     }
+
+/* Courts Page Styles */
+.court-hierarchy {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 }
