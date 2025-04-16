@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Search - National Judiciary Portal</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Same header as index.html -->
+    <header>
+        <!-- Header content same as index.html -->
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="page-hero-content">
+                <h1>Case Information</h1>
+                <p>Search and track your case status</p>
+            </div>
+        </section>
+
+        <section class="case-search-section">
+            <div class="container">
+                <div class="search-options">
+                    <h2>Search Cases</h2>
+                    <div class="search-tabs">
+                        <button class="tab-btn active">Case Number</button>
+                        <button class="tab-btn">Party Name</button>
+                        <button class="tab-btn">Filing Date</button>
+                    </div>
+
+                    <form class="search-form">
+                        <div class="form-group">
+                            <label for="case-number">Case Number</label>
+                            <input type="text" id="case-number" placeholder="Enter Case Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="court-type">Court Type</label>
+                            <select id="court-type">
+                                <option value="">Select Court</option>
+                                <option value="supreme">Supreme Court</option>
+                                <option value="high">High Court</option>
+                                <option value="district">Court Of Appeal</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="year">Year</label>
+                            <select id="year">
+                                <option value="">Select Year</option>
+                                <option value="2025">2025</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn primary">Search</button>
+                    </form>
+                </div>
+
+                <div class="recent-cases">
+                    <h3>Recent Cases</h3>
+                    <div class="case-list">
+                        <div class="case-item">
+                            <div class="case-header">
+                                <span class="case-number">2024/CR/001234</span>
+                                <span class="case-status pending">Pending</span>
+                            </div>
+                            <div class="case-details">
+                                <p><strong>Parties:</strong> State vs John Doe</p>
+                                <p><strong>Court:</strong> District Court</p>
+                                <p><strong>Next Hearing:</strong> 15 Mar 2024</p>
+                            </div>
+                            <a href="#" class="btn-link">View Details</a>
+                        </div>
+                        <!-- Add more case items as needed -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-guidelines">
+            <div class="container">
+                <h2>Case Filing Guidelines</h2>
+                <div class="guidelines-grid">
+                    <div class="guideline-card">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Document Requirements</h3>
+                        <ul>
+                            <li>Valid ID Proof</li>
+                            <li>Case Related Documents</li>
+                            <li>Supporting Evidence</li>
+                        </ul>
+                    </div>
+                    <div class="guideline-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Filing Timeline</h3>
+                        <ul>
+                            <li>Working Hours: 9 AM - 5 PM</li>
+                            <li>Processing Time: 2-3 Days</li>
+                            <li>Emergency Filing Available</li>
+                        </ul>
+                    </div>
+                    <div class="guideline-card">
+                        <i class="fas fa-money-bill"></i>
+                        <h3>Fee Structure</h3>
+                        <ul>
+                            <li>Filing Fee Details</li>
+                            <li>Payment Methods</li>
+                            <li>Fee Exemptions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Same footer as index.html -->
+    <footer>
+        <!-- Footer content same as index.html -->
+    </footer>
+</body>
+</html>
